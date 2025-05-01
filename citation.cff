@@ -7,9 +7,6 @@ authors:
   - family-names: Gupta
     given-names: Arpita
     email: gupta.arp@northeastern.edu
-  - family-names: Mukherjee
-    given-names: Orijeet
-    email: mukherjee.o@northeastern.edu
   - name: "My Image Processor"
 version: 1.0
 date-released: "2023-11-02"
