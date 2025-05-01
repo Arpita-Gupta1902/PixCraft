@@ -1,0 +1,13 @@
+load tree.jpeg tree
+compress 0 tree compress-tree-0
+save compress-tree-0.jpeg compress-tree-0
+compress 30 tree compress-tree-30
+save compress-tree-30.jpeg compress-tree-30
+compress 80 tree compress-tree-80
+save compress-tree-80.jpeg compress-tree-80
+compress 100 tree compress-tree-100
+save compress-tree-100.jpeg compress-tree-100
+histogram compress-tree-30 hist-compress-tree-30
+save hist-compress-tree-30.jpeg hist-compress-tree-30
+histogram compress-tree-80 hist-compress-tree-80
+save hist-compress-tree-80.jpeg hist-compress-tree-80

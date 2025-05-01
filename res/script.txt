@@ -1,0 +1,5 @@
+load tree.jpeg tree
+red-component tree red-tree
+blue-component tree blue-tree
+vertical-flip blue-tree vertical-blue-tree
+save images/vertical-blue-tree.jpeg vertical-blue-tree

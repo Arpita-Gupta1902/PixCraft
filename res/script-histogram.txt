@@ -1,0 +1,13 @@
+load tree.jpeg tree
+color-correct tree cc-tree
+levels-adjust 20 100 255 tree tree-adjusted
+histogram tree-adjusted hist-tree-adjusted
+levels-adjust 50 98 220 tree tree-adjust-1
+histogram tree-adjust-1 hist-tree-adjust-1
+histogram cc-tree hist-cc-tree
+save hist-tree-adjusted1.jpeg hist-tree-adjusted
+save hist-tree-adjusted2.jpeg hist-tree-adjust-1
+save hist-color-corrected.jpeg hist-cc-tree
+luma-component tree luma-tree
+histogram tree hist-tree
+save hist-tree.jpeg hist-tree

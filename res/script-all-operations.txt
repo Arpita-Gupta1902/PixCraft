@@ -1,0 +1,30 @@
+load tree.jpeg tree
+red-component tree red-tree
+blue-component tree blue-tree
+green-component tree green-tree
+brighten 80 tree bright-tree
+darken 67 tree dark-tree
+vertical-flip red-tree vert-red-tree
+horizontal-flip red-tree hor-red-tree
+blur hor-red-tree bh-red-tree
+sharpen bh-red-tree sbh-red-tree
+luma-component tree luma-tree
+intensity-component tree intensity-tree
+value-component tree value-tree
+color-correct tree cc-tree
+levels-adjust 10 110 200 cc-tree la-cc-tree
+histogram cc-tree hist-cc-tree
+sepia tree split-sepia-tree split 70
+rgb-split tree red-tree blue-tree green-tree
+rgb-combine combinedtree red-tree green-tree blue-tree
+save trials/split-sepia-tree.jpeg split-sepia-tree
+save hist-cc-tree.jpeg hist-cc-tree
+histogram tree hist-tree
+save hist-tree.jpeg hist-tree
+compress 20 red-tree compress-red-tree-20
+save compress-red-tree-20.jpeg compress-red-tree-20
+compress 80 red-tree compress-red-tree-80
+save compress-red-tree-80.jpeg compress-red-tree-80
+
+
+

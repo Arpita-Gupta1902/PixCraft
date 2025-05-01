@@ -1,0 +1,3 @@
+load tree.jpeg tree
+sepia tree split-sepia-tree split 70
+save sepia-split-view.jpeg split-sepia-tree
