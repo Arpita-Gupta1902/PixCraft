@@ -1054,14 +1054,3 @@ run script-file: Load and run the script commands in the specified file.
 
 Refer useme.md file to understanding the working of the scripts.
 The working directory path should be set to res folder for the entire project to run.
-
-# DIFFERENCE IN THE DESIGN FROM FIRST IMPLEMENTATION(LAST ASSIGNMENT)
-
-# TO THE NEW IMPLEMENTATION(CURRENT ASSIGNMENT).
-
-A couple of changes have been made since the previous assignment. Following are the changes:
-
-1. New GUI commands package has been added to the controller which has GUI specific classes which
-   are being called when buttons are being pressed in the view.
-2. Entire view has been implemented using swing library of JDK.
-3. Controller has been made to work with Jframe implementation as well as interactive text mode.
