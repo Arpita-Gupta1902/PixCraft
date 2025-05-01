@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: My Image Processor
+abstract: This is an image processing project that performs several operations on the image using
+the command given by the user in the command line.
+authors:
+  - family-names: Gupta
+    given-names: Arpita
+    email: gupta.arp@northeastern.edu
+  - family-names: Mukherjee
+    given-names: Orijeet
+    email: mukherjee.o@northeastern.edu
+  - name: "My Image Processor"
+version: 1.0
+date-released: "2023-11-02"
+identifiers:
+  - description: The image used in this project is taken from an online source for testing purposes.
+    type: doi
+    value: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Ftree%
+    2F&psig=AOvVaw1G9etEcAvC5AA9AIjNjuz_&ust=1700244467462000&source=images&cd=vfe&opi=89978449&ved=
+    0CBIQjRxqFwoTCICIpq6OyYIDFQAAAAAdAAAAABAE"
